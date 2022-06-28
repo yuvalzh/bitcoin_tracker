@@ -1,0 +1,25 @@
+{
+  "name": "bitcoin_tracker",
+  "version": "1.0.0",
+  "description": "The goal of this project is to provide a tracker that reads and stores the current Bitcoin-to-USD exchange rate every minute to an online spreadsheet(Airtable).\r The project is written with javaScript using Node.js.",
+  "main": "tracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvalzh/bitcoin_tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvalzh/bitcoin_tracker/issues"
+  },
+  "homepage": "https://github.com/yuvalzh/bitcoin_tracker#readme",
+  "dependencies": {
+    "airtable": "^0.11.4",
+    "axios": "^0.27.2",
+    "save": "^2.5.0"
+  }
+}
